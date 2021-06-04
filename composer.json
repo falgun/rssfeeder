@@ -1,0 +1,37 @@
+{
+    "name": "falgunphp/rssfeeder",
+    "type": "library",
+    "homepage": "https://github.com/falgun/rssfeeder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S.M. Ataur Rahman",
+            "email": "dev.ataur.rahman@gmail.com",
+            "homepage": "https://ataur.net/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Falgun\\RssFeeder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Falgun\\RssFeeder\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "sempro/phpunit-pretty-print": "^1.4",
+        "vimeo/psalm": "^3.18"
+    },
+    "scripts": {
+        "phpunit": "phpunit --verbose --colors=always"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
